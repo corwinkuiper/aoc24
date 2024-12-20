@@ -65,5 +65,5 @@ static MY_INPUT: &str = aoc24::load_input!();
 
 fn main() {
     println!("Part 1: {}", part_1(MY_INPUT));
-    println!("Part 1: {}", part_2(MY_INPUT));
+    println!("Part 2: {}", part_2(MY_INPUT));
 }
