@@ -65,6 +65,10 @@ impl Vector2d {
     pub fn rotate(self) -> Vector2d {
         Vector2d(-self.1, self.0)
     }
+
+    pub fn manhattan(self) -> i32 {
+        self.0.abs() + self.1.abs()
+    }
 }
 
 impl Grid {
